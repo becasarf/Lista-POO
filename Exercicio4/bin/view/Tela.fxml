@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" 
+            prefHeight="420.0" prefWidth="702.0" 
+            xmlns="http://javafx.com/javafx/21.0.1" 
+            xmlns:fx="http://javafx.com/fxml/1" 
+            fx:controller="controller.Exercicio4Controller">
+   <children>
+      <StackPane layoutX="411.0" layoutY="77.0" prefHeight="261.0" prefWidth="246.0">
+         <children>
+            <ImageView fx:id="imgPlano" fitHeight="266.0" fitWidth="365.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Documents/cartesiano.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </StackPane>
+      <Label alignment="TOP_LEFT" layoutX="182.0" layoutY="26.0" prefHeight="31.0" prefWidth="419.0" text="Exercício 04: Evento MouseMoved" textAlignment="CENTER" textFill="#9a0f6a" textOverrun="CLIP">
+         <font>
+            <Font name="Liberation Sans Bold Italic" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="95.0" prefHeight="31.0" prefWidth="7.0" text="x:">
+         <font>
+            <Font name="Courier New Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="185.0" text="y:">
+         <font>
+            <Font name="Courier New" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="277.0" text="Quadrante:">
+         <font>
+            <Font name="Courier New Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblX" layoutX="144.0" layoutY="96.0" text="0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblY" layoutX="144.0" layoutY="185.0" text="0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblQuadrante" layoutX="202.0" layoutY="277.0" text="0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
